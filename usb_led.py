@@ -2,6 +2,7 @@ from arduino.usbdevice import ArduinoUsbDevice
 from arduino.usbdevice import USBDeviceNotFound
 import time
 import usb
+import usb.backend
 import threading
 
 
