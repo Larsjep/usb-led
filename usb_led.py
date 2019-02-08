@@ -69,8 +69,9 @@ class USBLedController(object):
                 self.led_usb.write(g)
                 self.led_usb.write(b)
                 return
-            except usb.core.USBError:
+            except usb.core.USBError as exp:
                 print(f"USB error retrying({retry})...")
+                print(exp)
         raise USBFailed("USB communication failed")
 
 
