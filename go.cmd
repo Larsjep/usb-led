@@ -1,0 +1,1 @@
+@venv\Scripts\python calendar_notify.py
