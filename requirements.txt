@@ -7,7 +7,7 @@ pylint==2.5.3
 python-dateutil==2.8.1
 pytz==2020.1
 pyusb==1.0.2
-pywin32==228
+pywin32==301
 six==1.15.0
 toml==0.10.1
 typed-ast==1.4.1
